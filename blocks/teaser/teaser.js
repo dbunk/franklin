@@ -24,6 +24,7 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 // }
 
 export default function decorate(block) {
+  console.log('block', block);
   const teaser = document.createElement('div');
   const title = teaser.createElement('h1');
   title.textContent = 'Teaser Block';
